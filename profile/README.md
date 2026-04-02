@@ -37,7 +37,7 @@ MCP Client ← protect-mcp → MCP Server
 
 - **Issuer-blind verification** — verify a receipt is valid without learning who issued it ([patent pending](https://scopeblind.com))
 - **Cedar policy engine** — AWS-backed formal policy language with WASM evaluation
-- **IETF standards track** — [draft-farley-acta-signed-receipts-00](https://datatracker.ietf.org/doc/draft-farley-acta-signed-receipts/)
+- **IETF standards track** — [draft-farley-acta-signed-receipts-01](https://datatracker.ietf.org/doc/draft-farley-acta-signed-receipts/)
 - **4 patents pending** — VOPRF metering, verifier nullifiers, offline enforcement, configurable disclosure
 - **Progressive enforcement** — shadow (log only) → simulate → enforce → sign
 
