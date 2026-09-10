@@ -10,7 +10,7 @@ and receipts should not require surveillance.
 > **Receipt format:** ScopeBlind emits Veritas Acta receipts, the open format specified in
 > the IETF Internet-Draft
 > [draft-farley-acta-signed-receipts](https://datatracker.ietf.org/doc/draft-farley-acta-signed-receipts/)
-> (rev 02 on the datatracker). Types: [`@veritasacta/protocol`](https://www.npmjs.com/package/@veritasacta/protocol).
+> (rev 03 on the datatracker). Types: [`@veritasacta/protocol`](https://www.npmjs.com/package/@veritasacta/protocol).
 
 ## Start here
 
@@ -76,7 +76,7 @@ required.
 
 ## Standards alignment
 
-- **IETF Internet-Draft**: [`draft-farley-acta-signed-receipts-02`](https://datatracker.ietf.org/doc/draft-farley-acta-signed-receipts/) (live on datatracker)
+- **IETF Internet-Draft**: [`draft-farley-acta-signed-receipts-03`](https://datatracker.ietf.org/doc/draft-farley-acta-signed-receipts/) (live on datatracker)
 - **Microsoft Agent Governance Toolkit**: [Tutorial 33](https://github.com/microsoft/agent-governance-toolkit/blob/main/docs/tutorials/33-offline-verifiable-receipts.md) (offline-verifiable receipts) listed as Appendix A.9 conformant implementation in the IETF draft
 - **AWS Cedar**: integrated as the policy backend for protect-mcp
 - **In-toto / SLSA**: Decision Receipt predicate proposal at [in-toto/attestation#549](https://github.com/in-toto/attestation/pull/549)
@@ -96,8 +96,10 @@ required.
   multiple auditor scopes, no per-pair adapters.
 - **Issuer-blind verification** for VOPRF tokens (verify validity without learning the issuer)
 - **Apache-2.0 verifier with explicit patent grant** (Section 3)
-- **5 Australian patent provisionals filed** covering VOPRF metering, verifier nullifiers,
-  offline enforcement, configurable disclosure, visual cryptographic commitments
+- **8 Australian patent provisionals filed** covering VOPRF metering, verifier nullifiers,
+  offline enforcement, configurable disclosure, visual cryptographic commitments,
+  coverage closure with computed detectability, evidence-coupled authorization, and
+  cryptographically bound multi-view reconciliation
 
 ## Work with us
 
